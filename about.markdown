@@ -4,15 +4,17 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+This is my corner of the internet where I write about technology, programming,
+and the occasional tangent. There’s no set publishing schedule, and the topics
+will shift depending on what I’m exploring or thinking about at the moment.
+Consider it more of a digital notebook than a published magazine.
+I’m not trying to chase trends or algorithms here — just sharing ideas,
+experiments, and lessons learned as I go. Sometimes that means deep dives,
+sometimes quick thoughts.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+A small confession: I’m a bit of a terminal enthusiast. If it can be done
+with a keyboard and a blinking cursor, chances are I’ll try it that way first.
+And yes I’m using neovim and emacs.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+If you stumble across something useful, interesting, or just mildly entertaining,
+then this blog has done its job.
