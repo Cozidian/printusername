@@ -23,8 +23,10 @@ email: christoffer.berglund@icloud.com
 description: >- # this means to ignore newlines until "baseurl:"
   Share engaging stories and insights on my journey, thoughts, and experiences. 
   Follow along for a unique blend of perspectives and inspiration.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+# baseurl: "" # the subpath of your site, e.g. /blog
+# url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://www.printusername.com"
+baseurl: "/printusername" # because it’s a project page
 twitter_username: print_username
 github_username: cozidian
 
