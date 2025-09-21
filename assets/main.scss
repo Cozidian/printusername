@@ -1,0 +1,219 @@
+---
+---
+
+@import "minima";
+
+// Nord-inspired palette overrides
+:root {
+  color-scheme: dark;
+  --nord0: #2e3440;
+  --nord1: #3b4252;
+  --nord2: #434c5e;
+  --nord3: #4c566a;
+  --nord4: #d8dee9;
+  --nord5: #e5e9f0;
+  --nord6: #eceff4;
+  --nord7: #8fbcbb;
+  --nord8: #88c0d0;
+  --nord9: #81a1c1;
+  --nord10: #5e81ac;
+  --nord11: #bf616a;
+  --nord12: #d08770;
+  --nord13: #ebcb8b;
+  --nord14: #a3be8c;
+}
+
+body {
+  background-color: var(--nord0);
+  color: var(--nord6);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--nord6);
+}
+
+a {
+  color: var(--nord8);
+}
+
+a:visited {
+  color: var(--nord9);
+}
+
+a:hover,
+a:focus {
+  color: var(--nord6);
+}
+
+.site-header {
+  background-color: var(--nord0);
+  border-bottom: 1px solid var(--nord2);
+}
+
+.site-title,
+.site-title:visited {
+  color: var(--nord8);
+}
+
+.site-title:hover {
+  color: var(--nord6);
+}
+
+.site-nav .page-link {
+  color: var(--nord5);
+}
+
+.site-nav .page-link:not(:last-child) {
+  border-color: var(--nord2);
+}
+
+.site-nav .page-link:hover,
+.site-nav .page-link:focus {
+  color: var(--nord8);
+}
+
+.site-footer {
+  background-color: var(--nord0);
+  border-top: 1px solid var(--nord2);
+  color: var(--nord4);
+}
+
+.site-footer a {
+  color: var(--nord9);
+}
+
+.site-footer a:hover,
+.site-footer a:focus {
+  color: var(--nord6);
+}
+
+.post-list > li {
+  border-bottom: 1px solid var(--nord2);
+}
+
+.post-meta {
+  color: var(--nord4);
+}
+
+.post-link {
+  color: var(--nord6);
+}
+
+.post-link:hover,
+.post-link:focus {
+  color: var(--nord8);
+}
+
+blockquote {
+  border-left: 4px solid var(--nord3);
+  background-color: var(--nord1);
+  color: var(--nord5);
+}
+
+pre,
+code {
+  background-color: var(--nord1);
+  color: var(--nord6);
+}
+
+pre {
+  border: 1px solid var(--nord2);
+  box-shadow: none;
+}
+
+.highlight {
+  background-color: var(--nord1);
+}
+
+hr {
+  background-color: var(--nord2);
+}
+
+table {
+  background-color: var(--nord0);
+  color: var(--nord6);
+  border-color: var(--nord2);
+}
+
+thead {
+  background-color: var(--nord1);
+}
+
+tbody tr:nth-child(odd) {
+  background-color: var(--nord1);
+}
+
+tbody tr:nth-child(even) {
+  background-color: var(--nord0);
+}
+
+button,
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+  background-color: var(--nord10);
+  border: 1px solid var(--nord2);
+  color: var(--nord6);
+}
+
+button:hover,
+button:focus,
+input[type="submit"]:hover,
+input[type="submit"]:focus,
+input[type="reset"]:hover,
+input[type="reset"]:focus,
+input[type="button"]:hover,
+input[type="button"]:focus {
+  background-color: var(--nord9);
+}
+
+input,
+textarea,
+select {
+  background-color: var(--nord1);
+  border: 1px solid var(--nord3);
+  color: var(--nord6);
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  border-color: var(--nord8);
+  box-shadow: 0 0 0 3px rgba(136, 192, 208, 0.25);
+}
+
+figcaption {
+  color: var(--nord4);
+}
+
+.pagination {
+  border-color: var(--nord2);
+}
+
+.pagination .page-number {
+  color: var(--nord6);
+}
+
+.pagination a {
+  color: var(--nord8);
+}
+
+.pagination a:hover,
+.pagination a:focus {
+  color: var(--nord6);
+}
+
+.site-nav input[type="search"] {
+  background-color: var(--nord1);
+  color: var(--nord6);
+  border-color: var(--nord3);
+}
+
+.site-nav input[type="search"]:focus {
+  border-color: var(--nord8);
+}
