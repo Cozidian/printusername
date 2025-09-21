@@ -1,0 +1,46 @@
+---
+layout: post
+title: "Your Own Personal Developer Environment"
+date: 2025-09-21 12:00:00 +0200
+categories: \[development, tools, workflow]
+description: "Why a personal developer environment (PDE) matters, how IDEs can get in the way, and lessons learned about customization and productivity."
+---
+
+
+## Introduction
+
+When programming, I want to work in something made for me — not a mass‑produced setup for the big market. I like it personal, and I don’t mind if it’s a bit rough around the edges.
+
+By PDE (personal developer environment), I mean the tools, workflows, and configs that make you effective and give you the freedom to change what doesn’t fit. For me that’s mostly Neovim, a terminal, and a touch of Emacs.
+
+It’s like a chef’s knife: every kitchen has knives, but the chef’s own knife is sharper and fits perfectly in the hand.
+
+---
+
+## The Problem with IDEs
+
+VS Code and other IDEs are crammed with buttons. For me it’s overwhelming — I don’t want to visually search for icons to perform tasks. I’d rather learn key combinations that become muscle memory.
+
+All those buttons can also hide important understanding. Imagine a new .NET developer who only knows VS Code or Visual Studio: how do they build without the hammer icon? How do they start without the play button? With a PDE, you know what’s happening under the hood. Even if you add buttons, you understand what’s behind them — which makes it easier to work on servers, pipelines, or fresh systems.
+
+---
+
+## When the IDE is Too Smart
+
+I once worked in a code base with many tests. Everything looked fine in my IDE, but the build server kept failing. I tried cleaning, rebooting — same result. Finally, I ran the exact same test command as the server. Bingo: failures.
+
+The IDE had been running tests in a “safe” order, masking a bug caused by test dependencies. It felt smooth until reality hit the pipeline. Too much IDE magic can give you a false sense of security.
+
+---
+
+## Lessons Learned: Don’t Overdo Customization
+
+My early PDE mistake was going all in on customization. You can burn hours tweaking configs and never learn if the defaults were actually fine. Now I stick with defaults until something really bothers me.
+
+This way, I can install tmux on a new system and get productive immediately, with less config to maintain and fewer surprises.
+
+---
+
+## Closing Reflection
+
+A PDE doesn’t need to be fancy — it just needs to be yours. Like a chef’s knife, it should feel natural in your hand and make you sharper at your craft.
